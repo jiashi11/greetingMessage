@@ -31,3 +31,7 @@ class MyGreeter{
 $greetingMessage = (new MyGreeter()) -> greetingMessage();
 
 var_dump($greetingMessage);
+
+// 是否需要自主传入时间, 传入什么格式?
+// 是否需要根据不同用户返回不同语言的问候语?(中文,日文,英文等)
+// 是否有时区的判断
